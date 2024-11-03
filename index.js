@@ -8,7 +8,7 @@ const cors = require("cors");
 const PORT = process.env.PORT || 5000;
 
 const corsOption = {
-  origin: ["http://localhost:5173"], // ครอบคลุมทั้งสอง origin
+  origin: "https://zone-front-nu.vercel.app/", // ครอบคลุมทั้งสอง origin
 };
 
 
